@@ -46,7 +46,7 @@ ol {
     padding-left: 0;
 }
 
-img {
+img, a {
     display: block;
 }
 
@@ -66,7 +66,6 @@ img {
 
 .header-logo, .footer-logo {
     font-family: 'raleway';
-    /* font-style: normal; */
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -114,6 +113,8 @@ img {
 
 .footer {
     background: var(--third-bg-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-address {
@@ -123,9 +124,20 @@ img {
     letter-spacing: 0.03em;
     color: var(--first-text-color);
     font-style: normal;
+    margin-top: 20px;
+    margin-bottom: 9px;
 }
 
-.footer-tel, .footer-mail {
+.footer-mail {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 9px;
+}
+
+.footer-tel {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -139,17 +151,7 @@ img {
 
 .hero {
     background: var(--third-bg-color);
-    height: 600px;
-}
-
-.hero-content{
-    margin: 0;
-    
-    /* padding-top: 200px;
-    padding-bottom: 200px;
-    
-    padding-left: auto;
-    padding-right: auto; */
+    padding: 200px 0;
 }
 
 .hero-title {
@@ -161,7 +163,8 @@ img {
     text-transform: uppercase;
     color: var(--first-title-color);
     width: 696px;
-    margin-bottom: 30px;
+    margin: 0 auto 30px auto;
+    /* margin-bottom: 30px; */
 }
 
 .hero-btn {
@@ -173,16 +176,22 @@ img {
     font-size: 16px;
     line-height: 1.88;
     display: flex;
-    align-items: center;
-    text-align: center;
+    /* align-items: center; */
+    /* text-align: center; */
     letter-spacing: 0.06em;
     color: var(--first-text-color);
     cursor: pointer;
+    margin: 0 auto;
 }
 
 .hero-btn:hover {
     background: var(--buton-hover);
 
+}
+
+.about {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .about-title {
@@ -196,11 +205,13 @@ img {
 }
 
 .about-text {
-    /* font-weight: 400; */
     font-size: 14px;
     line-height: 1.71;    
     letter-spacing: 0.03em;
     color: var(--third-text-color);
+}
+.work {
+    padding-bottom: 94px;
 }
 
 .work-title, .team-title {
@@ -215,24 +226,32 @@ img {
 
 .team {
     background: var(--second-bg-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.team-desc {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .team-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;   
-    /* text-align: center; */
+    text-align: center;
     letter-spacing: 0.03em;
-    color: var(--second-title-color);;
+    color: var(--second-title-color);
+    margin-bottom: 10px;
 }
 
 .team-text {
-    /* font-weight: 400; */
     font-size: 16px;
     line-height: 1.19;
-    /* text-align: center; */
+    text-align: center;
     letter-spacing: 0.03em;
     color: var(--third-text-color);
+    /* margin-bottom: 50px; */
 }
 
 .portfolio-btn {
@@ -253,11 +272,10 @@ img {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: var(--second-title-color);;
+    color: var(--second-title-color);
 }
 
 .portfolio-image-text {
-    /* font-weight: 400; */
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
