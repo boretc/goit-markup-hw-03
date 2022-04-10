@@ -26,10 +26,43 @@ body {
 .link {
     text-decoration: none;
 }
+ * {
+     box-sizing: border-box;
+ }
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid red;
+}
 
 .header {
     background: var(--first-bg-color);
-}
+    padding-top: 24px;
+    padding-bottom: 25px;
+} 
 
 .header-logo, .footer-logo {
     font-family: 'raleway';
@@ -106,6 +139,17 @@ body {
 
 .hero {
     background: var(--third-bg-color);
+    height: 600px;
+}
+
+.hero-content{
+    margin: 0;
+    
+    /* padding-top: 200px;
+    padding-bottom: 200px;
+    
+    padding-left: auto;
+    padding-right: auto; */
 }
 
 .hero-title {
@@ -116,6 +160,8 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--first-title-color);
+    width: 696px;
+    margin-bottom: 30px;
 }
 
 .hero-btn {
@@ -145,8 +191,8 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    
-    color: var(--second-title-color);;
+    color: var(--second-title-color);
+    margin-bottom: 10px;
 }
 
 .about-text {
@@ -154,7 +200,6 @@ body {
     font-size: 14px;
     line-height: 1.71;    
     letter-spacing: 0.03em;
-    
     color: var(--third-text-color);
 }
 
@@ -164,8 +209,8 @@ body {
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    
     color: var(--second-title-color);
+    margin-bottom: 50px;
 }
 
 .team {
