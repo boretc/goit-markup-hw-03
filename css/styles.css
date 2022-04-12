@@ -55,7 +55,7 @@ img, a {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
 }
 
 .header {
@@ -210,7 +210,6 @@ img, a {
     color: var(--first-title-color);
     width: 696px;
     margin: 0 auto 30px auto;
-    /* margin-bottom: 30px; */
 }
 
 .hero-btn {
@@ -247,7 +246,6 @@ img, a {
 .about-list,
 .work-list {
     display: flex;
-    /* justify-content: space-between; */
 }
 
 .about-item+.about-item,
@@ -389,7 +387,7 @@ img, a {
     box-sizing: border-box;
 }
 
-.visually-hidden {
+/* .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -400,7 +398,7 @@ img, a {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
+} */
 
 .portfolio-desc {
     padding: 20px 24px;
